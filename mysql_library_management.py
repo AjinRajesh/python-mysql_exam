@@ -174,7 +174,7 @@ while True:
             keyword = input("Enter title or author keyword: ")
             obj.search_book(keyword=keyword)
         else:
-            print("Invalid search choice\n")
+            print("Invalid search choice")
 
     elif ch == 4:
         book_id = int(input("Enter Book ID: "))
